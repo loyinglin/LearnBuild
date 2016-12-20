@@ -15,10 +15,10 @@
 		59C91CFC1E0797A400A5A994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C91CFA1E0797A400A5A994 /* LaunchScreen.storyboard */; };
 		FD8D74011E08D00E00D1C8CD /* BLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 595409D71E07BC9A000037E7 /* BLib.framework */; };
 		FD8D74021E08D01100D1C8CD /* DLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 595409DD1E07BCA4000037E7 /* DLib.framework */; };
-		FD8D74031E08D02200D1C8CD /* ALib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 595409D11E07BC8A000037E7 /* ALib.framework */; };
-		FD8D74041E08D02200D1C8CD /* ALib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 595409D11E07BC8A000037E7 /* ALib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FD8D74081E08D05800D1C8CD /* CLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 595409E31E07BCAC000037E7 /* CLib.framework */; };
-		FD8D74091E08D05800D1C8CD /* CLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 595409E31E07BCAC000037E7 /* CLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FD8D74421E09239000D1C8CD /* ALib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 595409D11E07BC8A000037E7 /* ALib.framework */; };
+		FD8D74431E09239000D1C8CD /* ALib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 595409D11E07BC8A000037E7 /* ALib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FD8D74461E09239000D1C8CD /* CLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 595409E31E07BCAC000037E7 /* CLib.framework */; };
+		FD8D74471E09239000D1C8CD /* CLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 595409E31E07BCAC000037E7 /* CLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,14 +50,14 @@
 			remoteGlobalIDString = 59C91D431E07B32900A5A994;
 			remoteInfo = CLib;
 		};
-		FD8D74051E08D02200D1C8CD /* PBXContainerItemProxy */ = {
+		FD8D74441E09239000D1C8CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 595409CC1E07BC8A000037E7 /* ALib.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 59C91D0C1E07B2CD00A5A994;
 			remoteInfo = ALib;
 		};
-		FD8D740A1E08D05800D1C8CD /* PBXContainerItemProxy */ = {
+		FD8D74481E09239000D1C8CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 595409DE1E07BCAC000037E7 /* CLib.xcodeproj */;
 			proxyType = 1;
@@ -67,14 +67,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		FD8D74071E08D02300D1C8CD /* Embed Frameworks */ = {
+		FD8D744A1E09239000D1C8CD /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FD8D74091E08D05800D1C8CD /* CLib.framework in Embed Frameworks */,
-				FD8D74041E08D02200D1C8CD /* ALib.framework in Embed Frameworks */,
+				FD8D74471E09239000D1C8CD /* CLib.framework in Embed Frameworks */,
+				FD8D74431E09239000D1C8CD /* ALib.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,10 +103,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD8D74031E08D02200D1C8CD /* ALib.framework in Frameworks */,
-				FD8D74081E08D05800D1C8CD /* CLib.framework in Frameworks */,
+				FD8D74461E09239000D1C8CD /* CLib.framework in Frameworks */,
 				FD8D74021E08D01100D1C8CD /* DLib.framework in Frameworks */,
 				FD8D74011E08D00E00D1C8CD /* BLib.framework in Frameworks */,
+				FD8D74421E09239000D1C8CD /* ALib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,13 +199,13 @@
 				59C91CE51E0797A400A5A994 /* Sources */,
 				59C91CE61E0797A400A5A994 /* Frameworks */,
 				59C91CE71E0797A400A5A994 /* Resources */,
-				FD8D74071E08D02300D1C8CD /* Embed Frameworks */,
+				FD8D744A1E09239000D1C8CD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FD8D74061E08D02200D1C8CD /* PBXTargetDependency */,
-				FD8D740B1E08D05800D1C8CD /* PBXTargetDependency */,
+				FD8D74451E09239000D1C8CD /* PBXTargetDependency */,
+				FD8D74491E09239000D1C8CD /* PBXTargetDependency */,
 			);
 			name = testLib;
 			productName = testLib;
@@ -322,15 +322,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FD8D74061E08D02200D1C8CD /* PBXTargetDependency */ = {
+		FD8D74451E09239000D1C8CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ALib;
-			targetProxy = FD8D74051E08D02200D1C8CD /* PBXContainerItemProxy */;
+			targetProxy = FD8D74441E09239000D1C8CD /* PBXContainerItemProxy */;
 		};
-		FD8D740B1E08D05800D1C8CD /* PBXTargetDependency */ = {
+		FD8D74491E09239000D1C8CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CLib;
-			targetProxy = FD8D740A1E08D05800D1C8CD /* PBXContainerItemProxy */;
+			targetProxy = FD8D74481E09239000D1C8CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
