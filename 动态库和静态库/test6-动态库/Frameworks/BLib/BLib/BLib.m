@@ -6,10 +6,17 @@
 //  Copyright © 2016 youshixiu. All rights reserved.
 //
 
-#include <stdio.h>
-#include "ALib.h"
-void call_foo_b()
-{
-    printf("call_foo in BLib.\n");
-    foo();
+#include "BLib.h"
+
+@implementation BLib
+
+
++ (void)load {
+    NSLog(@"load Blib");
 }
+
+- (void)foo {
+    NSLog(@"foo in NSALib.\n");
+}
+
+@end

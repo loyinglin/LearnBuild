@@ -6,9 +6,23 @@
 //  Copyright © 2016 youshixiu. All rights reserved.
 //
 
-#include <stdio.h>
+#include "ALib.h"
 
 void foo()
 {
     printf("foo in ALib.\n");
 }
+
+@implementation ALib
+
+
++ (void)load {
+    NSLog(@"load Alib");
+}
+
+
+- (void)foo {
+    NSLog(@"foo in NSALib.\n");
+}
+
+@end
