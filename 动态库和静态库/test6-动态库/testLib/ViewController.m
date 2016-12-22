@@ -53,8 +53,6 @@ typedef void (*FOO_FUNC)(void);
     }
 #pragma clang diagnostic pop
     
-    
-    
     dlclose(handle);
 }
 
